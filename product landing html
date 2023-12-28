@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <div>
+      <header id="header">
+        <div class="logo">
+          <img id="header-img" src="https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/65607f452f42d707b77463d0_italic-colored.svg">
+        </div>
+        <nav id="nav-bar" class="navbar">
+          <ul>
+            <li><a class="nav-link hover-effect" href="#Why">Why</a></li>
+            <li><a class="nav-link" href="#Howto">Howto</a></li>
+            <li><a class="nav-link" href="#Pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <hr></hr>
+    <div id="under">
+      <h1>What's the deal with those damn <span>italics?</span></h1>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label for="email">
+          <input name="email" id="email" type="email" placeholder="Enter your Email address">
+        </label>
+        <input id="submit" type="submit" class="button1" value="stay up to date"></input></form>
+    </div>
+    <div>
+      <section id="Why"><h2>Good reasons to learn your italics</h2>
+        <div class="reason">
+          <div class="icon">
+            <img width="60" height="60" src="https://img.icons8.com/ios/50/easy.png" alt="easy"/>
+          </div>
+          <div class="point"><h2>Ease of Use</h2>
+          <p>No matter how advanced a user you are, you'll be able to quickly grasp the technique to employ italics in your writing</p></div>
+        </div>
+        <div class="reason">
+          <div class="icon">
+            <img width="60" height="60" src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/external-free-sales-vitaliy-gorbachev-lineal-vitaly-gorbachev.png" alt="external-free-sales-vitaliy-gorbachev-lineal-vitaly-gorbachev"/>
+          </div>
+          <div class="point"><h2>Free of Charge</h2>
+          <p>Don't fall for great offers that provide you italics with a tremendous discount, don't get ripped off. Italics are inherently absolutely free of charge (for the foreseeable future)</p></div>
+        </div>
+        <div class="reason">
+          <div class="icon">
+            <img width="60" height="60" src="https://img.icons8.com/external-ddara-fill-ddara/64/external-acrobatics-circus-carnival-ddara-fill-ddara.png" alt="external-acrobatics-circus-carnival-ddara-fill-ddara"/>
+          </div>
+          <div class="point"><h2>Flexible and Versatile</h2>
+          <p>You don't even need a computer!</p></div>
+        </div>
+        
+      </section>
+      <section id="Howto"><h2>How to use italics in your project?</h2>
+      <div><iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/eKVeoAuv1OU?si=RtLe1TyXQ0TQdgjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      </section>
+      <section id="Pricing">
+        <h2>pricing</h2>
+        <div class="grid">
+          <div id="free" class="item">
+            <div class="tier">Standard</div>
+            <div class="price">Free</div>
+            <p class="description">this is a placeholder text remove when done or just change it</p>
+            <button class="button2">Select</button>
+          </div>
+          <div id="stillfree" class="item">
+            <div class="tier">Premium</div>
+            <div class="price">Also free</div>
+            <p class="description">this is a placeholder text remove when done or just change it</p>
+            <button class="button2">Select</button>
+          </div>
+          <div id="donate" class="item">
+            <div class="tier">Supporter</div>
+            <div class="price">Free but paid</div>
+            <p class="description">this is a placeholder text remove when done or just change it</p>
+            <button class="button2">Select</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
