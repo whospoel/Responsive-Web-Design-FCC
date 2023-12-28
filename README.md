@@ -1,1 +1,1 @@
-project for freecodecamp responsive web design course
+Projects for Responsive Web Design course on freecodecamp
